@@ -93,5 +93,23 @@
   <ItemGroup>
     <None Include="Resources\zoo_tileset.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Janitor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Animal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LabelAnim.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aiga-cashier.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\time.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\family.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

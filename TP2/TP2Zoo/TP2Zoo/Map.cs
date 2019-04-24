@@ -216,11 +216,27 @@ namespace TP2Zoo
                     {
                         tableauInterface[i, j] = TilesetImageGenerator.GetTile(35);
                     }
-                    else if ((2 <= j && j < 4) && i == 10)
+                    // Rive
+                    else if (i == 9 && j == 1)
                     {
-                        tableauInterface[i, j] = TilesetImageGenerator.GetTile(35);
+                        tableauInterface[i, j] = TilesetImageGenerator.GetTile(27);
                     }
-
+                    else if (i == 8 && j == 1)
+                    {
+                        tableauInterface[i, j] = TilesetImageGenerator.GetTile(32);
+                    }
+                    else if (i == 7 && j == 1)
+                    {
+                        tableauInterface[i, j] = TilesetImageGenerator.GetTile(26);
+                    }
+                    else if (i == 7 && j == 2)
+                    {
+                        tableauInterface[i, j] = TilesetImageGenerator.GetTile(30);
+                    }
+                    else if (i == 7 && j == 3)
+                    {
+                        tableauInterface[i, j] = TilesetImageGenerator.GetTile(28);
+                    }
                 }
             }
         }
