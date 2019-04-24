@@ -1,0 +1,24 @@
+Form:
+	LABEL:
+	- Affichage du jour
+	- L'argent du joueur
+	- Le nombre d'animaux
+	- Le nombre de déchets
+
+
+Héros:
+	CLASS
+	- Débute avec 100 $
+
+
+Enclos:
+
+	- 4 Enclos
+	- Un type d'animal par enclos
+
+Animaux:
+
+	- Déplacement aléatoire dans les cases permises (Scotland Yard)
+	- Être inclus dans les enclos existants seulement
+	- 
+	
